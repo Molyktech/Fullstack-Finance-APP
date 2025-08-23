@@ -9,7 +9,6 @@
     "build": "tsc && cp ./package.json ./dist",
     "start": "node dist/index.js",
     "lint": "eslint . --ext .ts"
-  
   },
   "keywords": [
     "finance",
@@ -31,6 +30,7 @@
     "qrcode": "^1.5.4",
     "resend": "^4.7.0",
     "speakeasy": "^2.0.0",
+    "uuid": "^11.1.0",
     "zod": "^3.25.76"
   },
   "devDependencies": {
